@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipe-content {
+  width: 50%;
+  margin: auto;
+}
+
+a {
+  background-color: #f2e6cd;
+  color: #711f16;
+  font-weight: bold;
+}
+
+.home-header {
+  margin: auto;
+}
+
+.home-section {
+  margin: 25px auto auto auto;
+}
+
+.home-section img {
+  height: 175px;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.recipe-content img {
+  height: 400px;
+  width: 550px;
+}
