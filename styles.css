@@ -1,33 +1,49 @@
+/* Home Page */
+
+* {
+  border: 2px solid;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card-section {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.card img {
+  width: 50%;
+  margin: 5px auto;
+}
+
+.card-link {
+  display: block;
+  background-color: #f2e6cd;
+  color: #711f16;
+  font-weight: bold;
+  width: 50%;
+  padding: 8px;
+}
+
+/* Recipe Pages */
+
+.recipe-content img {
+  height: 400px;
+  width: 550px;
 }
 
 .recipe-content {
   width: 50%;
   margin: auto;
-}
-
-a {
-  background-color: #f2e6cd;
-  color: #711f16;
-  font-weight: bold;
-}
-
-.home-header {
-  margin: auto;
-}
-
-.home-section {
-  margin: 25px auto auto auto;
-}
-
-.home-section img {
-  height: 175px;
-  width: 200px;
-  margin-bottom: 5px;
-}
-
-.recipe-content img {
-  height: 400px;
-  width: 550px;
 }
