@@ -1,8 +1,10 @@
 /* Home Page */
 
+/*
 * {
   border: 2px solid;
 }
+*/
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -32,6 +34,7 @@ h1 {
   display: block;
   background-color: #f2e6cd;
   color: #711f16;
+  border: 2px solid;
   font-weight: bold;
   font-size: 1rem;
   width: 75%;
@@ -50,4 +53,25 @@ h1 {
 .recipe-content {
   width: 50%;
   margin: auto;
+}
+
+ol {
+  margin-bottom: 2rem;
+}
+
+ol li {
+  margin: 1rem auto;
+}
+
+.recipe-content img {
+  width: 75%;
+}
+
+.home-page-link {
+  background-color: #f2e6cd;
+  color: #711f16;
+  border: 2px solid;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem;
 }
