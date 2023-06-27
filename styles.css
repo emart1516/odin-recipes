@@ -43,7 +43,6 @@ h1 {
 }
 
 /* Recipe Pages */
-
 .recipe-content img {
   display: block;
   width: 75%;
@@ -61,10 +60,6 @@ ol {
 
 ol li {
   margin: 1rem auto;
-}
-
-.recipe-content img {
-  width: 75%;
 }
 
 .home-page-link {
