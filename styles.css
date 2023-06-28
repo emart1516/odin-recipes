@@ -1,6 +1,6 @@
 /* Home Page */
 
-/*
+/* Use this to view the box model of all pages
 * {
   border: 2px solid;
 }
@@ -10,13 +10,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+.home-header {
   text-align: center;
+  background-color: #f2e6cd;
+  color: #711f16;
+  border: 2px solid;
+  width: 75%;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 .card-section {
   display: flex;
   justify-content: center;
+  background-color: #f2e6cd;
+  color: #711f16;
+  border: 2px solid;
+  width: 75%;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .card {
@@ -26,7 +38,7 @@ h1 {
 
 .card img {
   height: 10rem;
-  width: 75%;
+  width: 85%;
   margin: 0.5rem auto;
 }
 
@@ -37,12 +49,16 @@ h1 {
   border: 2px solid;
   font-weight: bold;
   font-size: 1rem;
-  width: 75%;
-  margin: 0 auto;
+  width: 80%;
+  margin: .5rem auto;
   padding: 0.5rem;
 }
 
 /* Recipe Pages */
+.recipe-header {
+  text-align: center;
+}
+
 .recipe-content img {
   display: block;
   width: 75%;
@@ -50,8 +66,13 @@ h1 {
 }
 
 .recipe-content {
+
+  border: 2px solid;
   width: 50%;
-  margin: auto;
+  margin: .5rem auto;
+  background-color: #f2e6cd;
+  color: #711f16;
+  padding: .5rem;
 }
 
 ol {
@@ -63,10 +84,14 @@ ol li {
 }
 
 .home-page-link {
+  display: block;
   background-color: #f2e6cd;
   color: #711f16;
+  text-align: center;
   border: 2px solid;
   font-weight: bold;
-  font-size: 1rem;
   padding: 0.5rem;
+  font-size: 1rem;
+  width: 20%;
+  margin: .5rem auto;
 }
